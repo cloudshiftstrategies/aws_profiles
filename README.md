@@ -24,12 +24,13 @@ Pretty simple right now.
 
 Pull requests are welcome. Here are a few things we could do
 
-1. Allow this tool to create new and/or configure existing profiles
-2. Expand the list of regions from the pick list.. Maybe make dynamic with `aws
+1. Get a better tty (currently limited to 80 chars wide)
+2. Allow this tool to create new and/or configure existing profiles
+3. Expand the list of regions from the pick list.. Maybe make dynamic with `aws
 	 ec2 describe-regions`
-3. Change the $PS1 prompt so that we can remember which profile we're using
-4. Integrate with saml2aws if configured to prompt for credentials if required
-5. Adapt this for use with non unix/bash systems
+4. Change the $PS1 prompt so that we can remember which profile we're using
+5. Integrate with saml2aws if configured to prompt for credentials if required
+6. Adapt this for use with non unix/bash systems
 
 
 ## Example usage
