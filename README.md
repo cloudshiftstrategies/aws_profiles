@@ -70,7 +70,3 @@ And when we are done, just exit the shell
 $ exit
 ```
 
-# aws_clear.py
-
-wipes out the contents of the saml profile from ~/.aws/credentials
-It's sort of a logout function for saml2aws
