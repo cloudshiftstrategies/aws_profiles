@@ -1,4 +1,4 @@
-# aws_profiles
+# aws_profiles.py
 
 This application selects from a list of AWS named profiles and sets your environment
 up correctly. Assumes the aws profiles are in $HOME/.aws/credentials and in the
@@ -68,3 +68,8 @@ And when we are done, just exit the shell
 ```
 $ exit
 ```
+
+# aws_clear.py
+
+wipes out the contents of the saml profile from ~/.aws/credentials
+It's sort of a logout function for saml2aws
